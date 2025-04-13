@@ -1,0 +1,105 @@
+.cms-score-badge {
+  border-radius: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: white;
+}
+
+.cms-extension-controls {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.refresh-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.refresh-button:hover {
+  background-color: #45a049;
+}
+
+.refresh-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.total-score-container {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+/* style.css */
+
+body.dark-theme {
+  background: oklch(26.9% 0 0);
+  color: white;
+}
+
+body.dark-theme table.table-striped {
+  background: none;
+  /* Optional if you need */
+}
+
+body.dark-theme table.table-striped.table-striped {
+  /* Remove striping */
+  background-color: transparent;
+}
+
+body.dark-theme #countdown,
+body.dark-theme #server_time {
+  color: white;
+}
+
+body.dark-theme .well {
+  background: oklch(43.9% 0 0);
+  color: white;
+}
+
+body.dark-theme .nav li {
+  color: oklch(80.9% 0.105 251.813);
+}
+
+body.dark-theme .nav-header {
+  color: white;
+}
+
+body.dark-theme code {
+  background: oklch(43.9% 0 0);
+  color: pink;
+}
+
+body.dark-theme #submission_detail {
+  background: oklch(26.9% 0 0);
+}
+
+body.dark-theme #submission_detail .score_details table.table-striped {
+  background-color: transparent;
+}
+
+body.dark-theme #submission_detail pre {
+  background: oklch(43.9% 0 0);
+  color: pink;
+}
+
+body.dark-theme #submission_detail .modal-footer {
+  background: oklch(26.9% 0 0);
+}
+
+#cms-extension-total-score {
+  background: rgb(57, 57, 57);
+}
